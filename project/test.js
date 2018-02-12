@@ -3,5 +3,5 @@
 // var argentina = 'https://restcountries.eu/rest/v2/name/Argentina';
 
 
-$("jsonDemo").innerHTML = "1,2,3,4,5,6,7,8,9,10";
+$("#jsonDemo").innerHTML = "1,2,3,4,5,6,7,8,9,10";
 </script>
