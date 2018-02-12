@@ -9,3 +9,7 @@
   padding: 25px;
   border: 25px solid navy;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
