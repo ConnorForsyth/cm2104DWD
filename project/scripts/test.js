@@ -1,3 +1,8 @@
-<script>
-$("p.jsonDemo").innerHTML = "Hello World";
-</script>
+function myFunction() {
+
+  alert("I am here... Now");
+}
+
+
+
+$("p.jsonDemo").text("Hello World");
