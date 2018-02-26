@@ -13,3 +13,69 @@
 table, th, td {
     border: 1px solid black;
 }
+
+.modal{
+  display:none;          /* Hidden by default */
+  position: fixed;      /*Keeps the modal in the same place */
+  padding-top: 100px;
+  padding-left: 10%;
+
+  z-index: 1;           /* Sits it on top of the page */
+  left: 0;
+  top: 0;
+  height: 100%;         /* Full height */
+  width: 100%;          /* Full width */
+  overflow:auto;        /* Enables scroll if/when needed */
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content{
+  background-color: white;
+  margin: 10%, auto;
+  border: 1px solid #888;
+  padding: 20px;
+  width: 70%;
+  /* box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.5); */
+    }
+
+.closeModal{
+  color: #FF0000;
+  float: right;
+  font-size: 25px;
+}
+
+.closeModal:hover, .closeModal:focus{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
+
+  .interactiveMap {
+    height: 300px;
+    width: 100%;
+  }

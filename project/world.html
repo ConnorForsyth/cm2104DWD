@@ -7,7 +7,7 @@
     <meta name="author" content="Group 8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title id="header">Culture!</title>
   </head>
 
@@ -17,6 +17,38 @@
     <section id="websiteSummary">
         <p> Find out about the differing cultures of the world! </p>
     </section>
+
+    <section id="countrySelector">
+      <select name="countries">
+        <option value="default">Please select an option</option>
+        <option value="france">France</option>
+        <option value="germany">Germany</option>
+        <option value="spain">Spain</option>
+        <option value="italy">Italy</option>
+      </select>
+    </section>
+
+    <section id="apiTesting">
+      <button type="button" id="modalBtn">Modal</button>
+      <div id="simpleModal" class="modal">
+        <div class="modal-content">
+          <span class="closeModal">X</span>
+          <ul class=testNav>
+            <li><a href="#">C</a></li>
+            <li><a href="#">G</a></li>
+            <li><a href="#">L</a></li>
+            <li><a href="#">CG</a></li>
+          </ul>
+          <img src="https://images.unsplash.com/photo-1440549770084-4b381ce9d988?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5194c09e30f8be41b5a7b466847643ee&auto=format&fit=crop&w=750&q=80" alt="wow" class="interactiveMap">
+          <p>Hello Simple Modal</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
 
     <section id="pageContent">
     <!--
@@ -30,10 +62,11 @@
   <section id="jsonTest">
     <p class="jsonDemo"></p>
     <button type="button" name="jsonButton" onclick="myFunction()">Click Me!</button>
-    
+
   </section>
 
-  <script src="/scripts/test.js"></script>
+  <script src="./scripts/test.js"></script>
+  <script src="./scripts/api.js"></script>
   </body>
 
  <!--
