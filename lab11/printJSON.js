@@ -26,7 +26,3 @@ function printJSON(jsondata) {
   var normal = JSON.stringify(jsondata);
   $('#resultsbox').append('<p>' + normal + '</p>');
 }
-
-function addItemToList(item){
-  $('#results').append('<li>' + item + '</li>');
-}
