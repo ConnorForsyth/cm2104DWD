@@ -18,7 +18,7 @@ function getResultsFromOMDB(searchterms){
   $.getJSON(url, function(jsondata){
     //handle the results
     printJSON(jsondata);
-  })
+  });
 }
 
 function printJSON(jsondata) {
