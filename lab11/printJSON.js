@@ -6,7 +6,7 @@ $(function(){
     var searchterms = $('#searchterms').val();
     getResultsFromOMDB(searchterms);
     return false;
-  })
+  });
 });
 
 function getResultsFromOMDB(searchterms){
