@@ -12,7 +12,7 @@ $(function(){
 function getResultsFromOMDB(searchterms){
   //call youtube API using ajax
   //build url for the request
-  var url="http://www.omdapi.com/?apikey=1d8cba35=" + searchterms;
+  var url="http://www.omdapi.com/?apikey=1d8cba35&s=" + searchterms;
   //use jquery json shortcut
   $.getJSON(url, function(jsondata){
     //handle the results
