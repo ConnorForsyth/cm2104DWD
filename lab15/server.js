@@ -1,8 +1,14 @@
-var express = require('express');
-var app = express();
+const MongoClient = require('mongodb').MongoClient;
+const url = "mogodb://localhost:27017//star_wars_quotes";
+const express = require('express');
+const app = express();
 
-app.get('/', function(req, res){
- res.send("Hello world using express");
+app.use(express.static('public'))
+
+var db;
+
+MongoClient.connect(url, function(err, database){
+  if(err) throw err;
+  db = database;
+  app.listen(8080);
 });
-
-app.listen(8080);
