@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contact-box{
+    width: 320px;
+  /*  height: 420px; don't need this*/
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    float: right;
+}
+
+h1{
+  margin:20px 0 0;
+  text-align: center;
+  font-family: "Centaur";
+  font-size: 120px;
+   -webkit-text-fill-color: #020003;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #7DF9FF;
+   text-shadow: 0 0 8px #FFFFFF;
+}
+
+h2{
+  margin:0;
+  padding:0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color:#fff;
+
+}
+
+.contact-box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.contact-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-box input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contact-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height:40px;
+  background: #7DF9FF;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.contact-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
+.contact-box a
+{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+
+}
+
+.contact-box a:hover
+{
+  color: #39dc79;
+}
+
+select option{
+  color: black;
+}
+
+#issueSelection{
+border-bottom: 0.01 solid white;
+}
